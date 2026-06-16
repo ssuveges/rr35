@@ -28,14 +28,14 @@ export default function Home() {
         
         {/* Kiemelt "Fejlesztés alatt" kártya a logó színeivel */}
         <div className="mt-8 inline-block bg-[#51A347] text-white font-bold px-6 py-3 rounded-full shadow-md transform rotate-[-1deg] hover:rotate-0 transition-transform">
-          Az oldal fejlesztés alatt áll, de kérünk látogass vissza később!
+          Az oldal fejlesztés alatt áll, kérünk látogass vissza később!
         </div>
       </div>
 
       {/* Alsó dekorációs elem - a kenu vöröse egy kis finom részletként */}
       {/*<div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-xs text-[#9B1111] font-semibold tracking-wider uppercase whitespace-nowrap">*/}
       <div className="flex flex-row absolute bottom-4 items-center gap-4 text-xs text-[#9B1111] font-semibold tracking-wider uppercase">
-        <div className="w-8 h-8" flex-shrink-0>
+        <div className="w-8 h-8 flex-shrink-0">
           <img
             src="/Royal-Rangers-Logo.png"
             alt="Royal Rangers - logo"
